@@ -1,0 +1,207 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.main{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+	width: 95%;
+    max-width: 1440px;
+    min-width: 200px;
+    margin: auto;
+    padding: .5rem 0;
+    overflow: hidden;	
+}
+.intDiv{
+	width: 85%;
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    border-bottom: 2px solid lightgrey;	
+    margin-top: -1rem;
+}
+
+@media screen and (min-width: 1024px){
+ [class*="section"]{
+    display: grid;
+    grid-template-columns: 18% 82%;
+    margin: 0.5rem 0;
+    grid-gap: 0.75rem;
+}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 700px){
+[class*="spaceX"] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 0.75rem;
+    grid-column-gap: 0.25rem;
+}
+}
+
+#filterId{
+	margin-top: 0rem;
+}
+
+@media screen and (min-width: 1024px){
+ [class*="spaceX"]{
+   display: grid;
+   grid-row-gap: 0.75rem;
+    grid-column-gap: 0.25rem;
+   grid-template-columns: repeat(4,1fr);
+}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 700px){
+[class*="section"] {
+    display: grid;
+    grid-template-columns: 27% 70%;
+    margin: 0.5rem 0;
+}
+}
+
+@media screen and (min-width: 1024px){
+[class*="spaceXinner"] {
+    width: 95%;
+    max-height: 480px;
+    overflow: hidden;
+    }
+    }
+
+.col-3_yearTile{
+	background-color: #ffffff;
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
+    height: auto;
+    max-height: 660px;	
+}
+
+.filterLable{
+	text-align: center;
+}
+
+.lineClass{
+	margin: auto;
+}
+
+
+.launchButtonYear{
+	margin-top: -0.5rem;
+    margin-bottom: 15rem;
+}
+
+.span1{
+	margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.launchButton{
+	width: 90%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    max-width: 180px;
+	
+}
+
+.launchButton1{
+	font-size: inherit;
+	cursor: pointer;
+	background-color: #90ee90;
+    padding: .25rem 1rem;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.spaceXinner{
+	height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+
+
+.lastButton{
+	margin-right: 6rem;
+	cursor: pointer;
+	background-color: #b2f5a6;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.lastButton:hover {
+  background-color: #66d253;
+}
+
+.launchButton1:hover {
+  background-color: #66d253;
+}
+
+.launchButton2:hover {
+  background-color: #66d253;
+}
+
+
+.lastButton:focus {
+  background-color: #66d253;  
+  border-color: transparent;
+}
+
+.launchButton1:focus { 
+  background-color: #66d253;  
+  border-color: transparent;
+}
+
+.launchButton2:focus {
+   background-color: #66d253;  
+  border-color: transparent;
+}
+
+.cell{
+ width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    background-color: #E0E0E0;	
+}
+
+.name{
+	color: #551A8B;
+    margin-bottom: 0.75rem;
+	
+}
+
+.cellId{
+	margin-bottom: 0.5rem;
+	
+}
+.cellMain{
+	height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1rem;
+	
+}
+
+@media screen and (min-width: 1024px){
+[class="cellMain"] {
+    width: 80%;
+    max-height: 480px;
+    overflow: hidden;
+}
+}
+
+.abc{
+	width: 100%;
+    display: inline-block;
+}
